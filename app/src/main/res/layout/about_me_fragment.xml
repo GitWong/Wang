@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_name"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <com.htq.baidu.coolnote.widget.CircleImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/author"
+        android:textColor="#000"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="\t\t\t\t何悲何哀何必去愁与苦
+\n\t\t\t\t何必追悔与无奈
+\n\t\t\t\t人间以外有更多逍遥地
+\n\t\t\t\t回忆里想象里梦境里星河里
+\n\t\t\t\t人间不过是你我他的梦
+\n\t\t\t\t稍纵即逝的梦尘世梦
+\n\t\t\t\t以声以色以光影去做梦
+\n\t\t\t\t以光和影做永恒梦
+\n\t\t\t\t该明白人生恍惚水月镜花
+\n\t\t\t\t该了解一切终会烟消云散
+\n\t\t\t\t往事就算璀璨梦想再浪漫
+\n\t\t\t\t最终都随时间黯淡
+\n\t\t\t\t唯有光和影能够留住梦想
+\n\t\t\t\t唯有光和影能够留住璀璨
+\n\t\t\t\t留住消逝光阴
+\n\t\t\t\t岁月如流金
+\n\t\t\t\t流金光明永留在光影中
+\n\t\t\t\t永远璀璨在光影中"
+        android:textColor="#000"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>

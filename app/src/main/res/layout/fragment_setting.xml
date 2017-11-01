@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_lock"
+        style="@style/option_item_rl">
+
+        <TextView
+            style="@style/option_item_text_parent"
+            android:text="@string/jia_mi"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <com.htq.baidu.coolnote.widget.ToggleButton
+            android:id="@+id/tb_lock"
+            style="@style/option_item_toggleButton"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#333"></View>
+
+    <RelativeLayout
+        android:id="@+id/rl_Tran"
+        style="@style/option_item_rl">
+
+        <TextView
+            style="@style/option_item_text_parent"
+            android:text="@string/settran"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <com.htq.baidu.coolnote.widget.ToggleButton
+            android:id="@+id/tb_tran"
+            style="@style/option_item_toggleButton"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#333"></View>
+
+    <RelativeLayout
+        android:id="@+id/rl_music"
+        style="@style/option_item_rl">
+
+        <TextView
+            style="@style/option_item_text_parent"
+            android:text="@string/music"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <com.htq.baidu.coolnote.widget.ToggleButton
+            android:id="@+id/tb_music"
+            style="@style/option_item_toggleButton"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#333"></View>
+
+    <RelativeLayout
+        android:id="@+id/rl_file"
+        style="@style/option_item_rl">
+
+        <TextView
+            android:id="@+id/tv"
+            style="@style/option_item_text_parent"
+            android:text="SD卡中需要展示相片的文件夹名称"
+            android:textColor="#000"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/et_file"
+            android:hint="默认系统"
+            android:text="kugou"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tv" />
+
+    </RelativeLayout>
+    <TextView
+
+        style="@style/option_item_text_parent"
+        android:text="    说明：影像功能可以读取SD下任务文件夹图片，例如 kugou 为酷狗里所有图片。DCIM为系统相册（照片数量过多加载时间可能较久）"
+        android:textColor="#000"
+        android:textSize="12sp" />
+
+
+</LinearLayout>

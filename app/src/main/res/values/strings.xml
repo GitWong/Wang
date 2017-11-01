@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">光影</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">透明效果</string>
+    <string name="submit_notebook">保存记录</string>
+    <string name="add_notebook">添加记录</string>
+    <string name="change_bg">更换皮肤</string>
+    <string name="share_app">分享应用</string>
+    <string name="about_app">Music</string>
+    <string name="about_me">作者：得到 </string>
+    <string name="setting">设置</string>
+    <string name="home">笔记</string>
+    <string name="author"></string>
+    <string name="jia_mi">应用加密</string>
+    <string name="slogan">记录那些光和影</string>
+    <string name="exit">退出</string>
+    <string name="settran">应用透明背景</string>
+    <string name="pop_photo">拍照</string>
+    <string name="pop_choose">从相册中选择</string>
+    <string name="login_username_hint">请输入账号</string>
+    <string name="login_password_hint">请输入密码</string>
+    <string name="login">登陆</string>
+    <string name="register_txt1">还没账号？</string>
+    <string name="register_txt2">立即注册</string>
+    <string name="login_account">账号</string>
+    <string name="login_pwd">密码</string>
+    <string name="register">注册</string>
+    <string name="login_email">确认密码</string>
+    <string name="login_email_hint">请再次输入密码</string>
+    <string name="register_account">注册账号</string>
+    <string name="user_info">YOU</string>
+    <string name="my_blog">等你</string>
+    <string name="datetime_dialog_ok">设置</string>
+    <string name="datetime_dialog_cancel">取消</string>
+    <string name="notealert_look">查看详情</string>
+    <string name="notealert_cancle">知道了</string>
+    <string name="font_small">小</string>
+    <string name="font_normal">普通</string>
+    <string name="font_large">大</string>
+    <string name="font_super">较大</string>
+    <string name="create_folder">创建文件夹</string>
+    <string name="find">博客</string>
+    <string name="music">背景音乐</string>
+</resources>
